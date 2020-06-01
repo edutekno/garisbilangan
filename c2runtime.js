@@ -23114,5 +23114,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
 	cr.plugins_.Sprite.prototype.acts.SetMirrored,
 	cr.system_object.prototype.cnds.Else,
-	cr.plugins_.Sprite.prototype.acts.SetScale
+	cr.plugins_.Sprite.prototype.acts.SetScale,
+	cr.system_object.prototype.acts.NextPrevLayout
 ];};
